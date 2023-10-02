@@ -48,7 +48,6 @@ export default function Questionnaire() {
 	}
 	return (
 		<div className="flex flex-col gap-5 mt-32">
-			<h1>Please first answer a few questions:</h1>
 			<div className="w-full bg-gray-200 rounded-full h-2.5 ">
 				<div
 					className={`bg-blue-600 h-2.5 rounded-full`}
