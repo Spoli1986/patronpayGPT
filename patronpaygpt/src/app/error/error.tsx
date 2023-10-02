@@ -1,6 +1,5 @@
 "use client";
 import { useEffect } from "react";
-import styles from "./breaking.module.css";
 
 type Props = {
 	error: any;
@@ -14,7 +13,7 @@ export default function Error({ error, reset }: Props) {
 	}, [error]);
 
 	return (
-		<div className={styles.error}>
+		<div>
 			<div>ERROR</div>
 			<p>Something went wrong!</p>
 			<button onClick={() => reset()}>Reset error boundary</button>
